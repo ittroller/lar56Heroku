@@ -1,0 +1,76 @@
+#table-trangcanhan{width: 600px;}
+.table .table-hover{position: relative;}
+.pagination{position: absolute;top:350px;}
+
+/* GIAO DIỆN */
+
+#web{width: 1366px;}
+/* TOP */
+#top{ height: 50px; /* border: 1px solid black; */ width: 100%; }
+#logo{width: 100%; height: 50px; /* border: 1px solid blue; */ position: relative;}
+#design_logo{ text-decoration: none; font-style: italic; margin-top: 8px; position: absolute; }
+#input-timkiem{ width: 600px; }
+#btn-timkiem{margin-left: 8px;}
+#search{ /* border: 1px solid red; */ width: 100%; height: 50px; position: relative; }
+#form-tim-kiem{position: absolute; margin-top: 7px; }
+#giohang{ /* border: 1px solid green; */  width: 100%; height: 50px; position: relative; }
+#icon-giohang{position: absolute; margin-top: 7px;}
+#nguoidung{ /* border: 1px solid green; */  width: 100%; height: 50px; position: relative; }
+#icon-nguoidung{position: absolute; margin-top: 7px;}
+/* END TOP */
+
+/* NAVBAR */
+#nav{ height: 50px; /* border: 1px solid green; */ width: 100%; }
+    /* MEGA MENU */
+.navbar .dropdown-menu div[class*="col"] { margin-bottom:1rem;}
+.navbar .dropdown-menu { border:none; background-color:#f3f3f3!important;
+}
+@media screen and (min-width: 992px) {
+    .navbar { padding-top:0px; padding-bottom:0px;}
+    .navbar .nav-item { padding:.5rem .5rem; margin:0 .25rem;}
+    .navbar .dropdown {position:static;}
+    .navbar .dropdown-menu { width:100%; left:0; right:0; top:45px; }
+    .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+        display:block!important;
+    }
+    .navbar .dropdown-menu { border: 1px solid rgba(226, 223, 223, 0.15); background-color: rgb(5, 0, 4); }
+}
+#navbarSupportedContent ul{ margin-left: 800px; }
+
+/* END NAVBAR */
+
+/* SLIDE */
+#slide{
+    height:300px;
+    width: 100%;
+}
+
+/* END SLIDE */
+
+/* LEFT MENU */
+.col-sm-6.col-md-4{ border: 1px solid #e6e6ff; margin: 2px 0px; }
+.card-header{ background: white; }
+.danhmuc-con{ float: left; margin-left: 50px; }
+.card-header{ background: #eaeae1; }
+.label-cate{ background: #ccffe6; border:1px solid #e6e6ff; padding: 10px 0px; }
+.label-cate1{ background: #ffffcc; border:1px solid #ffffcc; padding: 10px 0px; }
+.label-cate2{ background: #ccccff; border:1px solid #ccf2ff; padding: 10px 0px; }
+
+/* END LEFT MENU */
+
+/* CONTENT */
+.chitiet_anhchinh{ border:1px solid black; }
+.chitiet_anhchitiet{ margin:5px; }
+.btn-themgiohang{ margin-top: 10px;}
+.btn-capnhat{
+    padding: 10px; background:#cdf9bb; border:1px; text-decoration:none; border-radius: 25px;
+}
+/* END CONTENT */
+
+/* CART */
+/* .qty{
+    border-radius:25px; padding-left: 20px; width:100px;
+} */
+/* END CART */
+
+#footer{ height: 50px; width: 100%; /* border: 1px solid red; */ }
